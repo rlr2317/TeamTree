@@ -1,0 +1,15 @@
+//Name: Roman, Lawrence
+//Class: Swen
+//Description: Projekt
+
+public class Client
+{
+    public static void main (String[] args)
+    {
+        EveryFood collection = new EveryFood();
+          
+        PerfectMenu v = collectionr.getPerfectMenu();
+        Both = collection.getMeatLoverMenu();
+  
+    }
+}
