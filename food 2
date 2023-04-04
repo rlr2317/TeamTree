@@ -2,14 +2,10 @@
 //Class: Swen
 //Description: Projekt
 
-public class Client
-{
-    public static void main (String[] args)
-    {
-        EveryFood collection = new EveryFood();
-          
-        PerfectMenu v = collectionr.getPerfectMenu();
-        Both = collection.getMeatLoverMenu();
-  
-    }
+public class Menu{
+   public static void main(String[]args){
+   //TODO: Implement Menu class with methods to choose between editing food/recipes list or accessing daily logger
+   }
+   public void editFoodList(){
+   }
 }
