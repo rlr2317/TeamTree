@@ -1,0 +1,42 @@
+Design Phase 01
+
+04.04.2023
+
+Team Tree: Lawrence Anthony Buljanovic, Roman Rogic Cvinar
+
+
+
+Description of Application class:
+
+- Leader:
+The Leader class serves as the main class that allows users to choose between editing the food and recipes list or accessing the daily logger.
+
+- Menu:
+The Menu class is the main class used to edit the entire foods list file, including adding, 
+removing, or editing foods and recipes. It has its own GUI setup with buttons that provide access to other editing classes, 
+and clicking on these buttons will call up the selected class and display it on the canvas.
+
+- Add_Item:
+Add_Item class is called by the Editor class to add new foods and recipes to the list. 
+It has its own GUI setup for inputting all relevant information, such as calorie, fat, 
+protein, and name, to add a new food and recipe.
+
+- Remove_Item:
+Remove_Item class is called by the Editor class to safely remove foods from the list. 
+It has its own GUI setup with the necessary selector for all the foods currently in the list, 
+allowing the user to select and remove specific foods.
+
+- Edit_Item:
+Edit_Item class is called by the Editor class to edit pre-existing foods in the list.
+It has its own GUI setup for selecting foods or recipes and then editing their values, such as name, protein, carbs, fat, or ingredients. 
+It also allows for changing recipe values, such as the foods used to create it.
+
+- DailyCheckIn:
+DailyCheckIn class is used to track the user's intake of food, 
+as well as specific information about the user, such as their weight, to track their diet progress.
+It contains all the necessary functionalities for the user to log even a day they missed inputting.
+
+Organization of the system:
+Our organization of the system utilizes a balance between cohesion and coupling. 
+Each functionality has its own class, and there are two controllers: 
+one focused on editing information and the other focused on using that information to track user inputs related to their diet.
